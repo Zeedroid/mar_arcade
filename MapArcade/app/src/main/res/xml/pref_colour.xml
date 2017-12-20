@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <PreferenceCategory android:title="Background Colours">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="map_default_background_colour"
+            android:summary="@string/pref_summary_default_background"
+            android:title="@string/pref_title_default_background" />
+
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <EditTextPreference
+            android:defaultValue="#CEFF9D"
+            android:key="map_walk_colour"
+            android:dependency="map_default_background_colour"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/walk" />
+        <EditTextPreference
+            android:defaultValue="#AB995B"
+            android:key="map_ride_colour"
+            android:dependency="map_default_background_colour"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/Ride" />
+        <EditTextPreference
+            android:defaultValue="#B0A07F"
+            android:key="map_cycle_colour"
+            android:dependency="map_default_background_colour"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/Cycle" />
+        <EditTextPreference
+            android:defaultValue="#ACB4BA"
+            android:key="map_drive_colour"
+            android:dependency="map_default_background_colour"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/Drive" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zeedroid.maparcade.PreviewMapActivity1">
+    <!-- <layout xmlns:android="http://schemas.android.com/apk/res/android"  -->
+<!--    <TextureView
+        android:id="@+id/textureView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_alignParentTop="true"
+        tools:layout_centerHorizontal="true" />-->
+
+<!--    <data>
+        <variable
+            name="viewModel"
+            type="com.zeedroid.maparcade.PreviewMapModel" />
+    </data>  -->
+
+<!--    bind:adapter="@{viewModel.adapter"   -->
+<!-- <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> -->
+    <com.zeedroid.maparcade.PreviewMapLayout
+        android:id="@+id/mapLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--        app:viewModel="@{viewModel.viewModel}"  -->
+<!--    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />   -->
+
+    <TextView
+        android:id="@+id/mapStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:onClick="toggleStats"/>
+    <TextView
+        android:id="@+id/mapStatsExtend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mapStats"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/record_journey"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/stopButton"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/add_point"
+        android:layout_marginTop ="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toRightOf="@+id/startButton"
+        app:layout_constraintRight_toLeftOf="@+id/stopButton"
+        app:layout_constraintVertical_bias="0.441" />
+
+
+    <Button
+
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/stop"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp" />
+</android.support.constraint.ConstraintLayout>
+<!-- </LinearLayout>
+</layout>  -->

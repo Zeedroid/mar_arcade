@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="routeStartButton" type="id">999</item>
+    <item name="routeStopButton" type="id">998</item>
+    <item name="routeExtraButton" type="id">997</item>
+</resources>
