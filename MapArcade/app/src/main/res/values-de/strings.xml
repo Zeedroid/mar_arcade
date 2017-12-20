@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Map Arcade</string>
+    <string name="navigation_drawer_open">Navigationsschublade öffnen</string>
+    <string name="navigation_drawer_close">Navigation schließen Schublade</string>
+    <string name="publish_journey">Reise veröffentlichen\n</string>
+    <string name="record_journey">Rekordfahrt</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="speech_not_supported">Sprache nicht unterstützt\n</string>
+    <string name="speech_prompt">Bitte sprechen Sie jetzt\n</string>
+    <string name="modify_journey">Reise ändern\n</string>
+    <string name="walk">Gehen</string>
+    <string name="Ride">Reiten</string>
+    <string name="Cycle">Zyklus</string>
+    <string name="Drive">Fahrt</string>
+
+    <string-array name="titles">
+        <item>Gehen</item>
+        <item>Reiten</item>
+        <item>Zyklus</item>
+        <item>Fahrt</item>
+    </string-array>
+
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Soziale Empfehlungen aktivieren\n</string>
+    <string name="pref_description_social_recommendations">Empfehlungen für Kontaktpersonen basierend auf Ihrer Nachrichtenhistorie</string>
+    <string name="pref_title_display_name">Anzeigename</string>
+    <string name="pref_default_display_name">Hans Maier</string>
+    <string name="pref_title_add_friends_to_messages">Freunde zu Nachrichten hinzufügen\n</string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency">Synchronisierungsfrequenz</string>
+    <string name="pref_title_system_sync_settings">System-Synchronisierungseinstellungen\n</string>
+    <string name="pref_header_notifications">Benachrichtigungen</string>
+    <string name="pref_title_new_message_notifications">Neue Meldungsbenachrichtigungen\n</string>
+    <string name="pref_title_ringtone">Klingelton</string>
+    <string name="pref_ringtone_silent">Leise</string>
+    <string name="pref_title_vibrate">Vibrieren</string>
+    <string name="pref_header_map">Karte</string>
+    <string name="pref_title_default_background">Standardwerte ändern\n</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="pref_summary_default_background">Ändern Sie die Hintergrundfarbe für jeden Routentyp\n</string>
+    <string name="pref_summary_tile_grid">Mercator Projection Fliesenraster anzeigen, mit Fliesenreferenznummern\n</string>
+    <string name="pref_summary_zoom_level">Die aktuelle Zoomstufe anzeigen\n</string>
+    <string name="pref_summary_gps_update">Die Erhöhung der Anzahl der Sekunden wird beschleunigt und begradigt die Linien, wird aber die Präzision verringern\n</string>
+    <string name="pref_title_grid_reference">Gitterrasterreferenzen anzeigen\n</string>
+    <string name="pref_title_zoom_level">Zoomstufe anzeigen\n</string>
+    <string name="pref_title_gps_update_frequency">Minimale Zeit zum Aktualisieren ändern\n</string>
+    <string name="pref_title_gps_frequency">Minimale Sekunden zwischen Aktualisierungen bearbeiten\n</string>
+    <string name="pref_header_colour">Farbe</string>
+    <string name="pref_summary_tile_size">Erhöhen Sie die Kachelgröße, um bei der aktuellen Zoomstufe mehr Details anzuzeigen. 256 Standardgröße für Mercator Projection, 400 für mobile Geräte.\n</string>
+    <string name="pref_title_tile_size_change">Fliesengröße ändern\n</string>
+    <string name="pref_title_tile_size">Fliesengröße</string>
+    <string name="pref_title_gps_distance">Minimale Zähler zwischen Aktualisierungen bearbeiten\n</string>
+    <string name="pref_title_gps_update_distance">Mindestabstand zum Update ändern\n</string>
+    <string name="pref_summary_gps_update_distance">Die Erhöhung der Distanz in Metern wird dazu beitragen, die Linien zu begradigen, wird aber die Präzision verringern\n</string>
+    <string name="title_activity_maps">Karte</string>
+    <string name="address_found">Adresse wurde gefunden\n</string>
+    <string name="no_address_found">Es wurde keine Adresse gefunden\n</string>
+    <string name="service_not_available">Der Service ist nicht verfügbar\n</string>
+    <string name="invalid_lat_long_used">Ungültiger Breitengrad - Längengrad wurde verwendet\n</string>
+    <string name="no_geocoder_available">Kein Geocoder ist verfügbar\n</string>
+    <string name="general_error">Ein Fehler ist aufgetreten\n</string>
+    <string name="distance_traveled">Zurückgelegte Strecke: %1$f Km</string>
+    <string name="zoom_scale">Zoom: %1$d Skalierung: %2$d\n</string>
+    <string name="create_map_button">Erstellen</string>
+    <string name="search_map_button">Suche</string>
+    <string name="setup_map_env">Kartenumgebung einrichten</string>
+    <string name="connect_gps">Verbindung zum GPS-Dienst herstellen</string>
+    <string name="waiting_gps">Warten auf GPS-Signa</string>
+    <string name="add_point">Funktion hinzufügen</string>
+    <string name="stop">Halt</string>
+    <string name="start_point">Anfang</string>
+    <string name="end_point">Ende</string>
+    <string name="say_feature">Bitte sagen Sie die Funktion noch einmal</string>
+    <string name="voice_exception">Sprachausnahme</string>
+    <string name="feature">Feature :</string>
+    <string name="no_feature">Keine Funktion gefunden</string>
+    <string name="record_text">Zum Starten drücken....</string>
+    <string name="modify_text">Aussehen verändern</string>
+    <string name="publish_text">Fertige Karte speichern....</string>
+    <string name="map_env">Settinf up-Kartenumgebung</string>
+    <string name="gps_signal">Warten auf GPS-Signal</string>
+    <string name="connecting_gps">Verbindung zum GPS-Dienst</string>
+    <string name="create_your_map">Erstellen Sie Ihre Karte</string>
+    <string name="undo_changes">Veränderungen rückgängig machen</string>
+    <string name="save_changes">Änderungen speichern</string>
+    <string name="title">Title</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="publish_button">Publish</string>
+    <string name="title_for_the_route">Title for the Route</string>
+    <string name="brief_description_of_route">Brief description of route</string>
+</resources>

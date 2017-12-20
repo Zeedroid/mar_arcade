@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Map Arcade</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="create_map_button">Create</string>
+    <string name="search_map_button">Search</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="publish_journey">Publish Journey</string>
+    <string name="record_journey">Record Journey</string>
+    <string name="setup_map_env">Setting up Map Environment</string>
+    <string name="connect_gps">Connecting to GPS Service"</string>
+    <string name="waiting_gps">Waiting for GPS Signal</string>
+    <string name="speech_not_supported">Speech Not Supported</string>
+    <string name="speech_prompt">Please Talk Now</string>
+    <string name="modify_journey">Modify Journey</string>
+    <string name="add_point">Add Feature</string>
+    <string name="stop">Stop</string>
+
+    <string name="start_point">Start</string>
+    <string name="end_point">End</string>
+    <string name="say_feature">Please Say Feature Again</string>
+    <string name="voice_exception">Voice Exception :</string>
+    <string name="feature">Feature :</string>
+    <string name="no_feature">No Feature Found</string>
+
+
+    <string name="walk">Walk</string>
+    <string name="Ride">Ride</string>
+    <string name="Cycle">Cycle</string>
+    <string name="Drive">Drive</string>
+
+    <string-array name="titles">
+        <item>Walk</item>
+        <item>Ride</item>
+        <item>Cycle</item>
+        <item>Drive</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_background_colours">
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+        <item>#000000</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_map">Map</string>
+    <string name="pref_title_default_background">Change Default Values</string>
+    <string name="nav_settings">Settings</string>
+    <string name="pref_summary_default_background">Change the background colour for each route type</string>
+    <string name="pref_summary_tile_grid">Show Mercator Projection tile grid, with tile refecence numbers</string>
+    <string name="pref_summary_zoom_level">Show current zoom level</string>
+    <string name="pref_summary_gps_update">Increasing the number of seconds will speed up and straighten the lines, but will decrease the precision</string>
+    <string name="pref_title_grid_reference">Show Tile Grid references</string>
+    <string name="pref_title_zoom_level">Show Zoom Level</string>
+    <string name="pref_title_gps_update_frequency">Change Minimum Time To Update</string>
+    <string name="pref_title_gps_frequency">Edit Minimum Seconds Between Updates</string>
+    <string name="pref_header_colour">Colour</string>
+    <string name="pref_summary_tile_size">Increase tile size to show more detail at current zoom level. 256 Is standard size used for Mercator Projection, 400 for mobile devices.</string>
+    <string name="pref_title_tile_size_change">Change Tile Size</string>
+    <string name="pref_title_tile_size">Tile Size</string>
+    <string name="pref_title_gps_distance">Edit Minimum Meters Between Updates</string>
+    <string name="pref_title_gps_update_distance">Change Minimum Distance To Update</string>
+    <string name="pref_summary_gps_update_distance">Increasing the Distance in Meters will help straighten the lines, but will decrease the precision</string>
+
+    <string-array name="compass_points">
+        <item>N</item>
+        <item>E</item>
+        <item>S</item>
+        <item>W</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="address_found">Address has been Found</string>
+    <string name="no_address_found">No Address has been Found"</string>
+    <string name="service_not_available">Service is not Available</string>
+    <string name="invalid_lat_long_used">Invalid Latitude-Longitude has been used</string>
+    <string name="no_geocoder_available"> No Geocoder is Available</string>
+    <string name="general_error">An Error Has Occurred</string>
+
+    <string name="distance_traveled">Distance Traveled: %1$f Km</string>
+    <string name="zoom_scale">Zoom: %1$d  Scale: %2$d</string>
+    <string name="record_text">Press to Begin....</string>
+    <string name="modify_text">Change appearance....</string>
+    <string name="publish_text">Save finished map....</string>
+    <string name="map_env">Setting up Map Environment</string>
+    <string name="gps_signal">Waiting for GPS Signal</string>
+    <string name="loading_map">Loading Map and Features</string>
+    <string name="connecting_gps">Connecting to GPS Service</string>
+    <string name="create_your_map">Create Your Map</string>
+    <string name="undo_changes">Undo Changes</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="publish_title">Title :</string>
+    <string name="publish_description">Description</string>
+    <string name="publish_type">Type</string>
+    <string name="publish_difficulty">Difficulty</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="publish_button">Publish</string>
+    <string name="title_for_the_route">Title for the Route</string>
+    <string name="brief_description_of_route">Brief description of route</string>
+
+</resources>

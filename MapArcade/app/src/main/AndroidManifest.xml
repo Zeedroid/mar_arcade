@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zeedroid.maparcade">
+
+
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+        <uses-feature
+            android:name="android.hardware.sensor.accelerometer"
+            android:required="true" />
+        <uses-feature
+            android:name="android.hardward.sensor.compass"
+            android:required="true" />
+        <uses-feature android:name="android.hardware.location.gps" />
+
+        <application
+            android:allowBackup="true"
+            android:fullBackupContent="true"
+            android:hardwareAccelerated="false"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+            <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="android.speech.action.VOICE_SEARCH_HANDS_FREE" />
+
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </activity>
+
+            <service android:name=".service.GPS_Service" />
+            <service android:name=".service.Sensor_Service" />
+            <service android:name=".service.FetchAddressIntentService"
+                     android:exported="false" />
+
+<!--            <activity
+                android:name=".CreateMapActivity"
+                android:label="Create Map Activity"
+                android:screenOrientation="portrait"></activity>  -->
+            <activity
+                android:name=".MapCreateActivity"
+                android:label="@string/create_your_map"
+                android:screenOrientation="portrait"></activity>
+            <activity
+            android:name=".PreviewMapActivity1"
+            android:label="Preview Map Activity"
+            android:configChanges="orientation|keyboard"></activity>
+            <activity
+                android:name=".ModifyMapActivity"
+                android:label="Modify Map Activity"
+                android:configChanges="orientation|keyboard"></activity>
+            <activity
+                android:name=".PublishMapActivity"
+                android:label="Publish Map Activity"
+                android:screenOrientation="portrait"
+                android:configChanges="orientation|keyboard"></activity>
+            <activity
+                android:name=".SettingsActivity"
+                android:label="@string/title_activity_settings"
+                android:parentActivityName=".MainActivity">
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.zeedroid.maparcade.MainActivity" />
+            </activity>
+
+            <!--
+                 The API key for Google Maps-based APIs is defined as a string resource.
+                 (See the file "res/values/google_maps_api.xml").
+                 Note that the API key is linked to the encryption key used to sign the APK.
+                 You need a different API key for each encryption key, including the release key that is used to
+                 sign the APK for publishing.
+                 You can define the keys for the debug and release targets in src/debug/ and src/release/.
+            -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+    </application>
+
+</manifest>
