@@ -138,7 +138,7 @@ public class MapRouteDaoTest {
 
         com.zeedroid.maparcade.entity.PointExtra pointExtra = new com.zeedroid.maparcade.entity.PointExtra();
         pointExtra.setRouteID(34567L);
-        pointExtra.setPoint(new Point(-0.087890625, 50.86577800109838));
+        pointExtra.setPoint(new Point(-0.087890625, 50.86577800109838, 0));
         pointExtra.setPosition("left");
         pointExtra.setPointType("Test Point");
         pointExtra.setPointShape(1);
